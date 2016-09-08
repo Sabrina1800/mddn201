@@ -1,0 +1,176 @@
+@font-face {
+  font-family: Poiret One; src: url('fonts/PoiretOne.TTF');
+  font-family: Freestyle Script; src: url('fonts/FreeScript.TTF');
+}
+body {
+    font-size: 100%;
+}
+
+#nav img{
+  width: 15%;
+  padding-left: 4%;
+  padding-top: 1%;
+}
+.container {
+  background-color: white;
+  width: 100%;
+  margin: 0;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+
+#nav ul {
+  list-style-type: none;
+  padding-top: 1%;
+  overflow: hidden;
+  float: right;
+  margin-right: 3%;
+}
+
+.nav {
+  display: inline;
+}
+
+.nav a {
+  font-size: 1.25rem;
+  color: #1A385D;
+  text-align: right;
+  padding: 16px;
+  font-family: Poiret One;
+  text-decoration: none;
+  font-weight: bolder;
+}
+
+.nav a:hover {
+  font-weight: 900;
+  color: #ffd3ca;
+}
+
+
+.icon {
+  list-style-type: none;
+  display: inline;
+  margin-right: 2%;
+}
+
+.icon img {
+  width: 2.5%;
+}
+
+#who {
+  margin-top: 12.5%;
+}
+
+#who h1{
+  font-family: Freestyle Script;
+  text-align: center;
+  font-size: 3rem;
+  color: #1A385D;
+}
+
+#hi h3 {
+  font-family: Poiret One;
+  text-align: center;
+  font-size: 1.25rem;
+}
+
+#hi h3 a {
+  color:#5A82AA;
+}
+
+#hi h3 a:hover {
+  color:#ffd3ca;
+}
+
+#cam {
+  width: 80%;
+  margin-left: 10%;
+  text-align: center;
+}
+ #cam h3 {
+   font-size: 2.5rem;
+   font-family: Freestyle Script;
+   margin-bottom: -1%;
+ }
+ #add {
+   display: inline-flex;
+   width: 90%;
+   margin-left: 5%;
+   margin-bottom: 5%;
+ }
+ .drop {
+   width: 25%;
+   padding-bottom: 2%;
+   margin-bottom: 5%;
+   font-size: 1.25rem;
+ }
+
+ .drop h3 {
+   font-family: Freestyle Script;
+   font-size: 1.75rem;
+   text-align: center;
+   cursor: pointer;
+ }
+
+ .drop ul {
+   list-style-type: none;
+   padding-left: 0%;
+ }
+ .drop ul li {
+   font-family: Poiret One;
+   font-weight: bolder;
+   text-align: center;
+ }
+
+ .drop ul li a {
+   color: black;
+   text-decoration: none;
+ }
+ .drop ul li a:hover {
+   background-color: #FFD3CA;
+ }
+
+ .menu {
+   display: none;
+   background-color: #f9f9f9;
+   min-width: 160px;
+   box-shadow: 0px 8px 16px 0px #ffd3ca;
+   margin-left: 10%;
+   margin-right: 10%;
+   padding-top: 5%;
+   padding-bottom: 10%;
+ }
+
+ form {
+   font-family: Poiret One;
+   font-weight: bolder;
+   padding-left: 10%;
+ }
+
+ input, select {
+   width: 80%;
+   padding: 12px 20px;
+   margin: 8px 0;
+   display: inline-block;
+   border: 1px solid #ccc;
+   border-radius: 4px;
+   box-sizing: border-box;
+ }
+ input[type=submit] {
+   width: 80%;
+   background-color: #19375C;
+   font-family: Freestyle Script;
+   font-size: 2rem;
+   color: white;
+   padding: 10px 20px;
+   margin: 8px 0;
+   border: none;
+   border-radius: 4px;
+   cursor: pointer;
+ }
+
+ #info, #int, #skill {
+   border-right: 1px black solid;
+ }

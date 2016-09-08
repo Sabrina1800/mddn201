@@ -1,0 +1,84 @@
+@font-face {
+  font-family: Poiret One; src: url('fonts/PoiretOne.ttf');
+  font-family: Freestyle Script; src: url('fonts/FreeScript.TTF');
+}
+body {
+    font-size: 100%;
+}
+
+#nav img{
+  width: 15%;
+  padding-left: 4%;
+  padding-top: 1%;
+}
+.container {
+  background-color: white;
+  width: 100%;
+  margin: 0;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+
+#nav ul {
+  list-style-type: none;
+  padding-top: 1%;
+  overflow: hidden;
+  float: right;
+  margin-right: 3%;
+}
+
+.nav {
+  display: inline;
+}
+
+.nav a {
+  font-size: 1.25rem;
+  color: #1A385D;
+  text-align: right;
+  padding: 16px;
+  font-family: Poiret One;
+  text-decoration: none;
+  font-weight: bolder;
+}
+
+.nav a:hover {
+  font-weight: 900;
+  color: #ffd3ca;
+}
+
+
+.icon {
+  list-style-type: none;
+  display: inline;
+  margin-right: 2%;
+}
+
+.icon img {
+  width: 2.5%;
+}
+
+#abt {
+  margin-top: 12.5%;
+}
+
+#abt h1{
+  font-family: Freestyle Script;
+  text-align: center;
+  font-size: 3rem;
+  color: #1A385D;
+}
+
+#what {
+  width: 70%;
+  margin-left: 15%;
+  margin-bottom: 20%;
+}
+
+#what p {
+  font-family: Poiret One;
+  font-size: 1.25rem;
+  font-weight: bolder;
+  line-height: 200%;
+}
